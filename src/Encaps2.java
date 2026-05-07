@@ -1,4 +1,4 @@
-class Student {
+class Student4 {
     private int id;
     private String name;
 
@@ -17,7 +17,7 @@ class Student {
 }
 public class Encaps2 {
     public static void main(String[] args) {
-        Student s = new Student();
+        Student4 s = new Student4();
         s.setId(101);
         s.setName("Rahul");
         System.out.println("ID: " + s.getId());
