@@ -1,5 +1,5 @@
 // Base class
-class Parent {
+class Parent77 {
 
     // Inherited method
     public void inheritedMethod() {
@@ -13,7 +13,7 @@ class Parent {
 }
 
 // Child class
-class Child extends Parent {
+class Child extends Parent77 {
 
     // Overriding method
     @Override
