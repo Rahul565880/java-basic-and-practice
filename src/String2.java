@@ -42,5 +42,16 @@
             } else {
                 System.out.println("Contents are different");
             }
+            System.out.println("----------------------**-----------------------");
+            System.out.println("----------------------**-----------------------");
+
+            String s5 = new String("Rahul");
+            String s6 = new String("rahuL");
+
+            if (s5.equalsIgnoreCase(s6)) {
+                System.out.println("Contents are same");
+            } else {
+                System.out.println("Contents are different");
+            }
         }
     }
